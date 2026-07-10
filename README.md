@@ -22,7 +22,7 @@ A Python-based application that automatically adjusts CPU core affinity to optim
 1. **Download the Repository**
    * **Via Git:**
      ```bash
-     git clone [https://github.com/matthew-teh/PrioritizeProcess.git](https://github.com/matthew-teh/PrioritizeProcess.git)
+     git clone https://github.com/matthew-teh/PrioritizeProcess.git
      ```
    * **Via ZIP:** Download the latest source code from the **Releases** section and extract it.
 
@@ -34,13 +34,19 @@ A Python-based application that automatically adjusts CPU core affinity to optim
      python -m venv .venv
      ```
 
-3. **Run the Application**
+3. **Install required packages**
+   * Run the following command:
+     ```cmd
+     pip install -r requirements.txt
+     ```
+
+4. **Run the Application**
    * Execute the main script using your virtual environment:
      ```cmd
      .venv\Scripts\python.exe main.py
      ```
 
-4. Follow the on-screen prompts to complete the setup.
+5. Follow the on-screen prompts to complete the setup.
 
 ---
 
