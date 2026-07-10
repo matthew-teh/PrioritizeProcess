@@ -60,3 +60,12 @@ A Python-based application that automatically adjusts CPU core affinity to optim
 The app detects the current state of your system and toggles the optimization:
 * **If the target process is already prioritized:** It resets all programs back to their normal CPU allocations.
 * **If the target process is NOT prioritized:** It instantly applies the optimized CPU core priority to the target process.
+
+## Credits & Licenses
+
+This project utilizes the following open-source libraries:
+* **[psutil](https://github.com/giampaolo/psutil)** (BSD-3-Clause License)
+* **[PyYAML](https://github.com/yaml/pyyaml)** (MIT License)
+* **[InquirerPy](https://github.com/kazhala/InquirerPy)** (MIT License)
+
+Python's built-in modules (`os`, `sys`, `ctypes`) are subject to the [Python Software Foundation License](https://docs.python.org/3/license.html).
